@@ -7,11 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>soft plush</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mapa.css">
+    
+    
 </head>
 
 <body>
     
- 
+ <div></div>
  
     <div class="img-fondo">
         
@@ -20,28 +23,23 @@
              
    <header class="header">
        <a href="index.html">
-           
   <table width="100%" border="0" cellpadding="2">
     <tr>
         <td>
-           <img src="https://i.imgur.com/ZrHM0hh.png" width="200px" height="200px"/>
+            <img src="   https://i.imgur.com/ZrHM0hh.png " width="200px" height="200px"/>
         </td>
         <td>
-            <img src="https://i.imgur.com/6hEQA4B.jpg" width="500px" height="200px"/> 
-        </td>
-        <td>
-            <img src="" alt="">
+            <img src="https://i.imgur.com/6hEQA4B.jpg" width="500px" height="200px"/>
         </td>
     </tr>
-    </table>
        </div>
     
     
          
-       </a>
+       </a><br>
        
       
-       <table width="100" border="0" cellspacing="0" cellpadding="3">
+       <table width="150" border="0" cellspacing="0" cellpadding="3">
   <tr>
     <td colspan="2"><b>🔎:</b></td>
   </tr>
@@ -57,57 +55,114 @@
    <nav>
        
        <a href="index.html">ㅤInicioㅤㅤㅤㅤㅤㅤㅤ</a>
-       <a href="nosotros.html">Nosotrosㅤㅤㅤ</a>
+       <a href="Nosotros.html">Nosotrosㅤㅤㅤ</a>
        <a href="productos.html">ㅤㅤProductosㅤㅤㅤㅤㅤㅤㅤ</a>
        <a href="contacto.html">Contactosㅤㅤㅤㅤㅤㅤ</a>
-       <a href="ndex.html">electrónica</a>
+       <a href="ndex.html"> Electrónica</a>
        
    </nav><br><br>
-  
-  
-  
  
- 
- 
-  <main class="contenedor"><!-- esta es el inicio del conteniendo principal -->
+     <section class="contenido">
+        <div class="mostrador" id="mostrador">
+            <div class="fila">
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="https://i.imgur.com/8Znk9al.png" alt="">
+                    </div>
+                    <p class="descripcion">Puerquito</p>
+                    <span class="precio">$300</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="https://i.imgur.com/nSoG7Tf.png"
+                         alt="">
+                    </div>
+                    <p class="descripcion" id>Patricio</p>
+                    <span class="precio">$509</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="https://i.imgur.com/OjjmtoO.png" alt="">
+                    </div>
+                    <p class="descripcion">Mikey mouse 
+                    </p>
+                    <span class="precio">$256</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="https://i.imgur.com/mXr4Jeg.png" alt="">
+                    </div>
+                    <p class="descripcion">Tigre bb</p>
+                    <span class="precio">$683</span>
+                </div>
+            </div>
+            <p>ㅤㅤㅤㅤㅤㅤㅤ</p>
+            <br>
+            <div class="fila">
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="https://i.imgur.com/CyWgOTQ.png" alt="">
+                    </div>
+                    <p class="descripcion">Caballito</p>
+                    <span class="precio">$683</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="https://i.imgur.com/jk1b4m2.png" alt="">
+                    </div>
+                    <p class="descripcion">Perrito</p>
+                    <span class="precio">$573</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="https://i.imgur.com/vH6FVag.png" alt="">
+                    </div>
+                    
+                    <p class="descripcion">Elefante bb</p>
+                    <span class="precio">$663</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="https://i.imgur.com/sZKCvMZ.png" alt="">
+                    </div>
+                    <p class="descripcion">Panda bb</p>
+                    <span class="precio">$479</span>
+                    
+                </div>
+            </div> 
+        </div>
+        
+        <!-- CONTENEDOR DEL ITEM SELECCIONADO -->
+        <div class="seleccion" id="seleccion">
+            <div class="cerrar" onclick="cerrar()">
+                &#x2715
+            </div>
+            <div class="info">
+                <img src="https://i.imgur.com/f3SpgWt.png" alt="" id="img">
+                <h2 id="modelo">NIKE MODEL 1</h2>
+                <p id="descripcion"></p>
 
- <!--inicio producto-->
- <div class="Productos">
-     
-     <marquee style="color:#000000;">🧸🐻Soft Pluss X Soft Plush Electrónic🎧💻</marquee>
-     <p style="color:;">🐻🎧vendemos únicamente peluches
-      de una calidad muy buena,garantia de por vida ,con precio muy accesible y envios a todas partes y ahora vendemos laptop de todas las marcas al mejor precio 🐻🎧 </p>
-       <a href="">
-  <div class="slider-container">  
-  <img
-    class="slider-item" src="https://i.imgur.com/8Znk9al.png"
-  />
-  <img
-    class="slider-item" src="https://i.imgur.com/f3SpgWt.png"
-  />
-  <img
-    class="slider-item" src="https://i.imgur.com/nSoG7Tf.png"
-  />
-    <img
-    class="slider-item" src="https://i.imgur.com/OjjmtoO.png"
-  />
-  <img
-    class="slider-item" src="https://i.imgur.com/mXr4Jeg.png"
-  />
-  <img
-    class="slider-item" src="https://i.imgur.com/jk1b4m2.png"
-  />
-  <img
-    class="slider-item" src="https://i.imgur.com/vH6FVag.png"
-  />
-  
-</div><br><br>
-      
-         <img src="https://i.imgur.com/JLWWryR.jpg" alt=""
-          width="730">
-         <a href="ndex.html"> <img src="https://i.imgur.com/MOOHmrB.jpg" alt="" width="730"></a>
-                 
-      
+                <span class="precio" id="precio">$ 130</span>
+
+                <div class="fila">
+                    <div class="size">
+                        <label for="">cantidas</label>
+                        <select name="" id="">
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                            <option value="">4</option>
+                        </select>
+                    </div><a href="carrito.html">
+                    <button>AGREGAR AL CARRITO</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="scrip.js"></script>
+
+        
     
 
  
@@ -122,7 +177,7 @@
    
    
    <footer class="footer">
-        <a class="enlace-footer" href="">
+        <a class="enlace-footer" href="#">
             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 226 226"
                 style=" fill:#000000;">
                 <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
@@ -172,8 +227,7 @@
             </svg>
         </a>
 
-
-   <p style="color:#000000;">🧸copyright©2023-todos los derechos reservados a soft plush creado por Diego Fuentes Jiménez🧸</p>
+   <p style="color:#000000;">copyright©2023-todos los derechos reservados a soft plush creado por Diego Fuentes Jiménez</p>
    
    
    </a>

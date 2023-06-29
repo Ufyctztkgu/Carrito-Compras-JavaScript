@@ -1,28 +1,78 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
-
+    
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-compatible" content="IE- edge">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>soft plush</title>
+    <link rel="stylesheet" href="pit.css">
+    <link rel="stylesheet" href="map.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/estilo.css">
     <script src="js/popper.min.js"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
-        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link rel="stylesheet" href="css/sweetalert2.min.css">
-
-    <title>Carrito Compras en JavaScript</title>
-
 </head>
 
+
 <body>
+    
+        <div class="img-fondo">
+        
+        <div class="velo-negro">    
+             
+             
+   <header class="header">
+       <a href="index.html">
+           
+  <table width="100%" border="0" cellpadding="2">
+    <tr>
+        <td>
+           <img src="https://i.imgur.com/ZrHM0hh.png" width="200px" height="200px"/>
+        </td>
+        <td>
+            <img src="https://i.imgur.com/6hEQA4B.jpg" width="500px" height="200px"/> 
+        </td>
+        <td>
+            <img src="" alt="">
+        </td>
+    </tr>
+    </table>
+       </div>
+    
+    
+         
+       </a>
+       
+      
+       <table width="100" border="0" cellspacing="0" cellpadding="3">
+  <tr>
+    <td colspan="2"><b>🔎:</b></td>
+  </tr>
+  <tr>
+    <td><input type="text" name="Query" size="25" /></td>
+    <td><input type="button" name="Search" value="Ir"
+       onclick="doSearch(this.form.Query);" /></td>
+  </tr>
+</table>
+       
+       
+   </header><!-- Fin del header -->
+   <nav>
+       
+       <a href="index.html">ㅤInicioㅤㅤㅤㅤㅤㅤㅤ</a>
+       <a href="nosotros.html">Nosotrosㅤㅤㅤ</a>
+       <a href="productos.html">ㅤㅤProductosㅤㅤㅤㅤㅤㅤㅤ</a>
+       <a href="contacto.html">Contactosㅤㅤㅤㅤㅤㅤ</a>
+       <a href="ndex.html">electrónica</a>
+       
+   </nav><br><br>
     <header>
         <div class="container">
             <div class="row justify-content-between mb-5">
                 <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-                    <a class="navbar-brand" href="index.html">BODEGUITA FLORES EIRL</a>
+                    <a class="navbar-brand" href="index.html">Soft Plush Electronic</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
                         aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -39,7 +89,7 @@
             <div class="row mt-3">
                 <div class="col">
                     <h2 class="d-flex justify-content-center mb-3">Realizar Compra</h2>
-                    <form id="procesar-pago">
+                    <form id="procesar-pago" action="#" method="post">
                         <div class="form-group row">
                             <label for="cliente" class="col-12 col-md-2 col-form-label h2">Cliente :</label>
                             <div class="col-12 col-md-10">
@@ -55,7 +105,7 @@
                         </div>
 
                         <div id="carrito" class="form-group table-responsive" >
-                            <table class="form-group table" id="lista-compra" >
+                            <table class="table" id="lista-compra" >
                                 <thead>
                                     <tr>
                                         <th scope="col">Imagen</th>
@@ -104,7 +154,7 @@
                                 <a href="index.html" class="btn btn-info btn-block">Seguir comprando</a>
                             </div>
                             <div class="col-xs-12 col-md-4">
-                                <input type="submit" class="btn btn-success btn-block" id="procesar-compra" value="Realizar compra">
+                                <button href="#" class="btn btn-success btn-block" id="procesar-compra">Realizar compra</button>
                             </div>
                         </div>
                     </form>
